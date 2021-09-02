@@ -1,2 +1,2 @@
 # tindog-web
-This is a sample web page for a application called tindog. Its currently in process.
+This is a sample web page for an application called tindog. Its currently in process.
