@@ -29,6 +29,8 @@
 .imgs{
     width: 62%;
     transform: rotate(30deg);
+    position: relative;
+    left: 30%;
 }
 
 
@@ -68,6 +70,11 @@ h2{
     font-size: 3rem;
     line-height: 1.5; 
 }
+#feature{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
 
 
 #testimonials{
@@ -81,6 +88,12 @@ h2{
     border-radius: 100%;
     margin: 20px;
 }
+.carousel-item active{
+    padding: 7% 15%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
 #press{
     background-color: #ef8172;
     text-align: center;
@@ -91,4 +104,39 @@ h2{
     width: 15%;
     margin: 20px 20px 50px;
 }
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-col{
+    padding: 2% 3%;
+}
 
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 10% 15%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.btns{
+    text-align: center;
+}
+/* .button{
+    position: absolute;
+    top: 50%;
+} */
+#footer{
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding: 5% 5%;
+    margin: 2%;
+}
+.icns{
+    margin: 10px 20px;
+}
